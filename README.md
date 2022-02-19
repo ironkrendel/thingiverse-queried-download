@@ -1,4 +1,4 @@
-# thingiverse_queried_download
+# thingiverse-queried-download
 Simple program to download files from multiple thing from thingiverse
 Separate input with "," symbol
 !To use this tool you need to create a thingiverse app!
