@@ -24,7 +24,7 @@ while True:
             pass
             
         #url check
-        elif (re.match(r"https://www.thingiverse.com[a-zA-Z/]*", i)):
+        elif (re.match(r"https://www.thingiverse.com/thing:[0-9][0-9][0-9][0-9][0-9][0-9][0-9][a-zA-Z/]*", i)):
             pass
             
         else:
