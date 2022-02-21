@@ -1,4 +1,3 @@
-from multiprocessing.dummy import Process
 import requests
 import os
 import cursor
@@ -56,7 +55,7 @@ for i in thing_urls:
                     print(f"Downloaded {j['name']}                        ")
                     break
                 except FileNotFoundError:
-                    os.makedirs("./things/")
+                    os.makedirs(download_dir)
         print("-"*100)
         
     #if url is given
@@ -79,7 +78,7 @@ for i in thing_urls:
                     print(f"Downloaded {j['name']}                        ")
                     break
                 except FileNotFoundError:
-                    os.makedirs("./things/")
+                    os.makedirs(download_dir)
         print("-"*100)
 #finish
 print("Downloading finished")
